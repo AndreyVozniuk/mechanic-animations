@@ -5,12 +5,27 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Work space</title>
 </head>
+<style>
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe{
+    width: 100%;
+    height: 95vh;
+  }
+  .scene1, .scene2{
+    width: 49%;
+    height: 95vh;
+  }
+</style>
 <body>
-  <div class='scene1'></div>
-  <div class='scene2'></div>
+  <div class='scene1'>
+    <iframe src="./scene1/scene1.html" frameborder="0"></iframe>
+  </div>
+  <div class='scene2'>
+    <iframe src="./scene2/scene2.html" frameborder="0"></iframe>
+  </div>
 </body>
-<script src='https://dfrnc.com/lib/library-g.js'></script>
-<script src='scene1/scene1.js'></script>
-<script src='scene2/scene2.js'></script>
-<script src="index.js"></script>
 </html>

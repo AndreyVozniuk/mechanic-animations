@@ -1,3 +1,3 @@
-# Mechanic animation [GSAP + vanil JS]
+# Mechanic animation [GSAP]
 
 Two scenes of repairing a car. 
